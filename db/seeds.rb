@@ -10,7 +10,7 @@ Todo.destroy_all
 User.destroy_all
 
 statuses = %w[started backlog done]
-user1 = User.create!(email: "user1@user.com", password: "password", password_confirmation: "password")
+user1 = User.create!(email: "diego2000avelar@gmail.com", password: "123456", password_confirmation: "123456")
 user2 = User.create!(email: "user2@user.com", password: "password", password_confirmation: "password")
 
 20.times do |index|
